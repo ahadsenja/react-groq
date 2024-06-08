@@ -24,7 +24,7 @@ function App() {
   return (
     <main className='flex flex-col justify-center items-center min-h-[80vh] w-full max-w-3xl mx-auto space-y-4'>
       <div>
-        <h1 className='flex justify-center items-center text-xl sm:text-3xl text-indigo-500'>React with Groq App</h1>
+        <h1 className='flex justify-center items-center text-xl sm:text-3xl text-indigo-500'>Regroq AI</h1>
         <span className='text-gray-300 text-xs sm:text-sm'>Type anything you want, and see the result</span>
       </div>
 
