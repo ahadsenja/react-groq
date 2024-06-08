@@ -60,7 +60,12 @@ function App() {
         </div>
       </main>
 
-      <footer className='w-full text-xs text-center px-2 text-gray-300 fixed bottom-2 left-0'>Copyright &copy; 2024 Regroq AI. All rights reserved. Made by <a href="https://github.com/ahadsenja" target="_blank" rel="noreferrer" className='font-bold'>@ahadsenja</a></footer>
+      <footer 
+        className='w-full text-xs text-center px-2 text-gray-300 fixed bottom-2 left-0'
+      >
+        Copyright &copy; 2024 Regroq AI. All rights reserved. Made by 
+        <a href="https://github.com/ahadsenja" target="_blank" rel="noreferrer" className='font-bold'>@ahadsenja</a>
+      </footer>
     </>
   )
 }
