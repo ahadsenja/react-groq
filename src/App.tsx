@@ -51,7 +51,7 @@ function App() {
             <SyntaxHighlighter
               language='swift'
               style={darcula}
-              wrapLines={true}
+              wrapLongLines={true}
             >
               {data}
             </SyntaxHighlighter>
@@ -60,11 +60,9 @@ function App() {
         </div>
       </main>
 
-      <footer 
-        className='w-full text-xs text-center px-2 text-gray-300 fixed bottom-2 left-0'
-      >
+      <footer className='w-full text-xs text-center px-2 text-gray-300'>
         Copyright &copy; 2024 Regroq AI. All rights reserved. Made by 
-        <a href="https://github.com/ahadsenja" target="_blank" rel="noreferrer" className='font-bold'>@ahadsenja</a>
+        <a href="https://github.com/ahadsenja" target="_blank" rel="noreferrer" className='font-bold'> @ahadsenja</a>
       </footer>
     </>
   )
